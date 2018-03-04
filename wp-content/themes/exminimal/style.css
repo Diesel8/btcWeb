@@ -1,0 +1,269 @@
+/*
+ Theme Name:   exMinimal
+ Description:  exMinimal is a child theme of the Experon theme and is really good for professionals. If you want to make a business, for big or small this theme is good for you. So if it is a restaurant, sport, medical, startup, corporate, business, ecommerce, portfolio, freelancers or any type of online agency or firm you will want to use this cool design. It had a multi-purpose design with widget areas in footer, so now even easy to make blog/news website which looks really clean. The theme is responsive, WPML, Polylang, Retina ready, SEO friendly, and is a super design.
+ Author:       yaypress
+ Author URI:   http://www.yaypress.com
+ Template:     experon
+ Version:      1.0.3
+ License:      GPLv2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  exminimal
+ Tags:         one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-header, custom-menu, full-width-template, theme-options, threaded-comments, featured-images, post-formats, sticky-post, translation-ready, flexible-header, custom-background, grid-layout, footer-widgets, blog, e-commerce, photography, rtl-language-support
+*/
+
+/*-------------------------------------------------------------------
+	General
+-------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------
+	Services
+-------------------------------------------------------------------*/
+
+.services-builder.style1 {
+    background: #fff;
+    border: 1px solid #f1f1f1;
+}
+.services-builder.style1 .iconurl a {
+    font-size: 100%;
+}
+.services-builder.style1 .iconurl a:hover {
+    color: inherit;
+}
+.services-builder.style1 .iconurl {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+
+/*-------------------------------------------------------------------
+	Pre Header
+-------------------------------------------------------------------*/
+
+#pre-header {
+	background: #fff;
+}
+#pre-header .menu > li {
+	border: none !important;
+}
+#pre-header .menu > li:last-child {
+}
+#pre-header .header-links li a {
+    padding: 11px 15px 10px;
+}
+#pre-header .header-links .sub-menu {
+    background: #fff;
+    border: 1px solid #e1e1e1;
+}
+#pre-header .header-links .sub-menu li {
+    border-bottom: none;
+}
+#pre-header .header-links .sub-menu li:last-child {
+    border-bottom: none;
+}
+
+
+/*-------------------------------------------------------------------
+	Header
+-------------------------------------------------------------------*/
+
+#header .header-links .sub-menu {
+    border-top: 1px solid #E1E1E1;
+}
+.header-fancydrop #header .header-links .sub-menu {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+
+/* Header Search */
+#header-search a {
+	color: #A1A1A1;
+	background: #fff;
+	border: 1px solid #E1E1E1;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#header-search a:hover,
+#header-search.active a {
+	color: #115172;
+	background: #fff;	
+}
+
+
+/*-------------------------------------------------------------------
+	Intro
+-------------------------------------------------------------------*/
+
+#intro {
+	background: #fff;
+    border-color: #e1e1e1;	
+}
+
+
+/*-------------------------------------------------------------------
+	Call To Action
+-------------------------------------------------------------------*/
+
+#introaction,
+#outroaction {
+	background: #fff;
+    border: none;
+	padding: 10px;
+}
+#introaction.style2 #introaction-core,
+#outroaction.style2 #outroaction-core {
+	background: none;
+	border: none;
+}
+
+
+/*-------------------------------------------------------------------
+	Blog
+-------------------------------------------------------------------*/
+
+.blog-grid {
+}
+.blog-article {
+	border: none;
+    border-bottom: 1px solid #f1f1f1;
+	padding: 0 0 20px;
+	margin-bottom: 30px;
+}
+.blog-article.sticky {
+    border: 1px solid #f1f1f1;
+    padding: 0;
+}
+.blog-article.sticky .entry-content {
+	background: #fff;	
+}
+.blog-article .entry-content {
+    margin-bottom: 0;
+}
+.blog-article .blog-thumb {
+	max-width: 100%;
+    margin-top: 20px;
+}
+
+#comments {
+	border-top: 1px solid #f1f1f1;	
+}
+.commentlist article {
+	border-bottom: 1px solid #f1f1f1;
+}
+
+
+/*-------------------------------------------------------------------
+	Posts & Pages
+-------------------------------------------------------------------*/
+
+.page #main-core > article,
+.single #main-core > article {
+}
+
+
+/*-------------------------------------------------------------------
+	Pagination
+-------------------------------------------------------------------*/
+
+.nav-links {
+	text-align: center;
+}
+.navigation.pagination .nav-links a,
+.navigation.pagination .nav-links span {
+    background: #FFF;
+	border: 1px solid #f1f1f1;
+	-webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+.navigation.pagination .nav-links a:hover,
+.navigation.pagination .nav-links span:hover {
+	color: #FFF;
+	background: #115172;
+	background: rgba(17, 81, 114, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+
+
+/*-------------------------------------------------------------------
+	Sidebars
+-------------------------------------------------------------------*/
+
+#sidebar .widget {
+	border-width: 1px !important;
+	border-style: solid;
+    border-color: #e1e1e1;	
+	padding: 10px 15px 15px;
+}
+#sidebar .widget_tag_cloud,
+#sidebar .widget_archive,
+#sidebar .widget_categories,
+#sidebar .widget_search {
+	border-bottom-width: 1px !important;
+}
+
+/* Default Widget - Tag Cloud */
+.widget_tag_cloud a {
+	font-size: 13px !important;
+	color: inherit;
+	background: none;
+	border: 1px solid #ddd;
+}
+.widget_tag_cloud a:hover {
+	background: none;
+	border-color: #115172;
+}
+
+#footer .widget_tag_cloud a {
+	font-size: 13px !important;
+	color: #3d3d3d;
+	background: none;
+	border: 1px solid #ddd;
+}
+#footer .widget_tag_cloud a:hover {
+	color: #3d3d3d;
+	background: none;
+	border-color: #115172;
+}
+
+
+/*-------------------------------------------------------------------
+	Footer
+-------------------------------------------------------------------*/
+
+#footer {
+    background: #fff;
+    border-color: #e1e1e1;	
+}
+
+#sub-footer {
+	background: #fff;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;	
+}
+
+#post-footer-social li a {
+	color: #A1A1A1;
+	background: #fff;
+	border: 1px solid #e1e1e1;
+	width: 30px;
+	height: 30px;
+}
+#post-footer-social li a:hover {
+	color: #A1A1A1;
+	background: #fff;
+}
+
+
+/*-------------------------------------------------------------------
+	Responsive
+-------------------------------------------------------------------*/
+
